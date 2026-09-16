@@ -88,7 +88,7 @@ Thank you! Your order is confirmed, and your access is live.
 YOUR PERSONAL ACCESS CODE: ${code || 'FF-XXXXX-XXXXX'}
 
 OPEN YOUR DOWNLOADS:
-→ https://facelessforge.vercel.app/download
+→ https://facelessforge-glow.vercel.app/download
 (enter your email + the access code above)
 
 WHAT'S INSIDE (8 deliverables):

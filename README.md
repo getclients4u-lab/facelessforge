@@ -47,11 +47,11 @@ scripting, robotic voiceovers, and zero consistency. That's the exact info-produ
 
 ## Working URLs
 
-- **Landing page:** https://facelessforge.vercel.app/ ✅ 200
-- **Thank-you:** https://facelessforge.vercel.app/thank-you ✅ 200
-- **Downloads:** https://facelessforge.vercel.app/download ✅ 200
-- **Admin:** https://facelessforge.vercel.app/admin ✅ 200
-- **Payment link (Stripe TEST):** https://buy.stripe.com/__TO_BE_SET__
+- **Landing page:** https://facelessforge-glow.vercel.app/ ✅ 200
+- **Thank-you:** https://facelessforge-glow.vercel.app/thank-you ✅ 200
+- **Downloads:** https://facelessforge-glow.vercel.app/download ✅ 200
+- **Admin:** https://facelessforge-glow.vercel.app/admin ✅ 200
+- **Payment link (Stripe TEST):** https://buy.stripe.com/test_00wfZicnm9Nh2vl50P1Nu0s
 
 **Status:** ✅ SHIPPED & LIVE — full E2E verified.
 
@@ -109,3 +109,18 @@ scripting, robotic voiceovers, and zero consistency. That's the exact info-produ
    (the known gotcha from the proofmark run). `node --check` PASSED and the fetch signature is intact.
 5. **Fixed an upstream bug in admin.html** — order rows now show `o.ts` (the actual stored field) instead of the
    non-existent `o.date`, so order dates render correctly.
+
+## Stripe (test mode)
+
+- Product: `prod_VGnRWtBrTgl5Oj` · Price: `price_1UGFqtLJy1J1wtNpqYnzxYUX` ($19.00)
+- Payment link: `plink_1UGFquLJy1J1wtNpLasP9g2P` → https://buy.stripe.com/test_00wfZicnm9Nh2vl50P1Nu0s
+  (redirects to https://facelessforge-glow.vercel.app/thank-you)
+- Webhook endpoint: `we_1UGFsLLJy1J1wtNp2W7wspZV` → https://facelessforge-glow.vercel.app/api/webhook
+  (`checkout.session.completed`, `checkout.session.async_payment_succeeded`)
+
+## Vercel
+
+- **git-linked project:** `facelessforge` — `prj_ZOTqorFGvI9weepIupk28iM3xtLW`, `link.repo=facelessforge`
+- **pre-deploy project:** `facelessforge-deploy` — `prj_FcY93tc3HmTf4one6Bo6Uf1bewRH`
+- **Alias:** `facelessforge-glow.vercel.app` (primary) — `facelessforge.vercel.app` was taken
+- SSO disabled on both. Env vars set on both.
