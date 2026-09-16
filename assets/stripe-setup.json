@@ -1,0 +1,16 @@
+{
+  "product": "FacelessForge™ — The Faceless Forge™ System",
+  "stripe_mode": "test",
+  "product_id": "prod_VGnRWtBrTgl5Oj",
+  "price_id": "price_1UGFqtLJy1J1wtNpqYnzxYUX",
+  "price_usd": 19,
+  "payment_link_id": "plink_1UGFquLJy1J1wtNpLasP9g2P",
+  "payment_link_url": "https://buy.stripe.com/test_00wfZicnm9Nh2vl50P1Nu0s",
+  "webhook_endpoint_id": "we_1UGFsLLJy1J1wtNp2W7wspZV",
+  "webhook_url": "https://facelessforge-glow.vercel.app/api/webhook",
+  "webhook_events": ["checkout.session.completed", "checkout.session.async_payment_succeeded"],
+  "landing": "https://facelessforge-glow.vercel.app/",
+  "thank_you": "https://facelessforge-glow.vercel.app/thank-you",
+  "download": "https://facelessforge-glow.vercel.app/download",
+  "admin": "https://facelessforge-glow.vercel.app/admin"
+}

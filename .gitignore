@@ -3,3 +3,4 @@ pdf/
 product/
 .DS_Store
 .vercel
+.vercel/
