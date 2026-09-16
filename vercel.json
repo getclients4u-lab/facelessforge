@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    { "source": "/product/(.*)", "headers": [{ "key": "Cache-Control", "value": "no-store" }] },
+    { "source": "/(.*)\\.pdf", "headers": [{ "key": "Cache-Control", "value": "no-store" }] }
+  ]
+}
